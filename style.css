@@ -1,0 +1,14 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'acne';
+
+}
+section{
+    height: 100vh;
+}
+#inicio{
+    background: #000;
+}
+#Presentación-personal 

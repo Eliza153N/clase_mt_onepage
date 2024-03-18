@@ -1,0 +1,217 @@
+
+* {
+margin: 0;
+padding: 0;
+font-family: 'Acne';
+}
+html{
+ scroll-behavior: smooth;
+}
+nav{
+ background: #000;
+ position: fixed;
+ right: 50%;
+ top: 30px;
+ transform: translateX(50%);
+ border: 4px solid #fff;
+ border-radius: 50px;
+ z-index: 1;
+}
+nav a:hover{
+color: rgb(251, 154, 251);
+transition: .3s;
+}
+nav ul{
+list-style: none;
+display: flex;
+}
+nav ul li a{
+ display: inline-block;
+ text-decoration: none;
+ font-size: 20px;
+ color: #fff;
+ padding: 10px 10px;
+}
+section{
+ height: 110vh; 
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-align: left;
+ color: #fff;
+}
+section h2{
+ font-size: 50px;
+}
+section p{
+font-size: 25px;
+max-width: 800px;
+margin: 0 auto;
+}
+#inicio{
+ background: #000;
+}
+#datos-personales{
+ background: url(flor.jpeg);
+ color: #fff;
+}
+#Presentación-personal{
+background: url(negro.jpeg);
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: left;
+
+}
+#gustos-y-hobbies{
+ background: url(rari.jpeg);
+ color: #fff;
+ height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+ text-align: left;
+}
+
+#proyectos-a-corto-plazo{
+background: url(libros.jpeg);
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: left
+}
+#portafolio-proyectos{
+    margin-top: 10px;
+background: url(gafas.jpeg);
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.contenedor{
+ margin-top: 20px;
+ display: flex;
+ justify-content: center;
+ margin-left: 50px;
+ margin-right: 25px;
+}
+.datos{
+ margin-left: 100px;
+}
+.foto{
+ margin-top: 70px;
+ border-radius: 50px;
+ margin-right: 100px;
+}
+.alinear-izquierda {
+ text-align: left;
+}
+.presentacion{
+ justify-content: left;
+ 
+}
+.video{
+ border-radius: 60px;
+ margin-right: 200px;
+ margin-left: 100px;
+ float: right;
+}
+.videos{
+ margin-top: 50px;
+ display: flex;
+ justify-content: center;
+ margin-left: 60px;
+ margin-right: 25px;  
+}
+.gustos{
+    margin-top: 40px;
+ border-radius: 20px;
+ margin-left: 40px;
+} 
+.styled-table {
+display: flex;
+ width: 90%;
+ border-collapse: collapse;
+ margin-left: 40px;
+ border-radius: 5px;
+ float: left;
+
+
+} 
+/*hobbies, intereses y gustos*/
+.hobbbies {
+    text-align: center;
+    position: relative;
+    top: -30%;
+    margin-left: 90;
+    padding: 0;
+    box-sizing: border-box;
+}
+.titulo {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 400px;
+}
+.slider-box {
+    width: 1200px;
+    height: auto;
+    margin: 20px auto 0;
+    overflow: hidden;
+}
+.slider-box ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 8s infinite alternate ease-in-out;
+}
+.slider-box li {
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+.texto {
+    position:absolute;
+    text-align: center;
+    padding: 0 10px;
+    top: 20px;
+    color: #fff;
+
+}
+.texto h2 {
+    font-size: 35px;
+    margin-bottom: 45px;
+}
+.slider-box img {
+    width: 75%;
+    padding-right: 170px;
+}
+ @keyframes slide {
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+ }
+.proyecto{
+    display: flex;
+    margin-left: 50px;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.proyecto .conocimiento2{
+    margin-right: 60px;
+    margin-left: 70px;
+}
+.estudio{
+    display: flex;
+    
+}
+.conocimiento{
+    border: #fff ;
+}
